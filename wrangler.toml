@@ -1,0 +1,7 @@
+name = "website-master-project"
+compatibility_date = "2025-09-24"
+
+pages_build_output_dir = "dist/client"
+
+[vars]
+NODE_ENV = "production"
