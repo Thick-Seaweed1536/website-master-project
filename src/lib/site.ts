@@ -1,0 +1,27 @@
+export const SITE = {
+  name: "A Plus Auto Repair",
+  legal: "A Plus Auto Repair LLC",
+  tagline: "Honest mechanics. Precision repairs. Houston since day one.",
+  phone: "(281) 530-7574",
+  phoneHref: "tel:+12815307574",
+  address: "13001 Bissonnet St, Houston, TX 77099",
+  city: "Houston, Texas",
+  mapsUrl: "https://maps.google.com/?cid=3022465835230776299",
+  rating: 4.7,
+  reviewCount: 141,
+  hours: [
+    { day: "Mon – Fri", time: "9:00 AM – 5:00 PM" },
+    { day: "Saturday", time: "9:00 AM – 2:00 PM" },
+    { day: "Sunday", time: "Closed" },
+  ],
+  nav: [
+    { to: "/", label: "Home" },
+    { to: "/services", label: "Services" },
+    { to: "/about", label: "About" },
+    { to: "/reviews", label: "Reviews" },
+    { to: "/gallery", label: "Gallery" },
+    { to: "/service-area", label: "Service Area" },
+    { to: "/faq", label: "FAQ" },
+    { to: "/contact", label: "Contact" },
+  ],
+} as const;
